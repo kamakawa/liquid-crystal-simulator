@@ -1,6 +1,6 @@
 # 🧊 Simulador Monte Carlo 3D para Cristais Líquidos com Ancoramento Superficial
 
-> Projeto de Iniciação Científica desenvolvido por **Eric Kamakawa**, sob orientação dos professores **Rafael Zola** e **Rodolfo Teixeira**, no curso de Engenharia da Computação da UTFPR – Apucarana.
+> Projeto de Iniciação Científica desenvolvido por **Eric Kamakawa** e **Iago Sitta**, sob orientação dos professores **Rafael Zola** e **Rodolfo Teixeira**, no curso de Engenharia da Computação da UTFPR – Apucarana.
 
 ---
 
