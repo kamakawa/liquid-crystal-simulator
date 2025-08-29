@@ -6,27 +6,54 @@
 
 ## 🎯 Objetivo
 
-Desenvolver e aprimorar um simulador computacional para sistemas de **cristais líquidos nemáticos** usando o **modelo de Lebwohl-Lasher** em **três dimensões**, baseado no **método de Monte Carlo com algoritmo de Metropolis**, incorporando diferentes condições de **ancoramento superficial** e simulações em diferentes regimes físicos.
+Este projeto de Iniciação Científica visa dar continuidade e aprimorar o simulador computacional McLiCS (Monte Carlo Liquid Crystal Simulator), explorando o comportamento de sistemas de cristais líquidos nemáticos em três dimensões. O foco principal é a implementação e análise do modelo de Lebwohl-Lasher e a incorporação de diversas condições de ancoramento superficial para simulações em diferentes regimes físicos.
+
+O projeto é uma aplicação direta de física computacional, combinando conceitos de física estatística e programação para resolver problemas complexos da matéria condensada.
 
 ---
 
 ## 🔬 Contexto Físico
 
-Cristais líquidos nemáticos são materiais com orientações moleculares parcialmente ordenadas, importantes em diversas aplicações tecnológicas, como **telas LCD**, **sensores térmicos** e **materiais fotônicos**.
+Cristais líquidos nemáticos são um estado da matéria com orientações moleculares parcialmente ordenadas, encontrando aplicações em tecnologias de ponta como telas LCD, sensores térmicos e materiais fotônicos.
 
-Para estudar seu comportamento coletivo, utiliza-se o modelo de **Lebwohl-Lasher**, que trata cada molécula como um vetor tridimensional sujeito a interações com vizinhos e a restrições de contorno (como ancoramentos em paredes).
+Para estudar o comportamento de orientação coletiva dessas moléculas, o projeto utiliza o modelo de Lebwohl-Lasher (LL). Neste modelo, cada molécula é simplificada como um vetor tridimensional que interage com seus vizinhos mais próximos. A energia de interação é descrita pelo potencial U 
+ij
+​
+ =−JP 
+2
+​
+ (cosθ 
+ij
+​
+ ), onde P 
+2
+​
+ (cosθ 
+ij
+​
+ ) é o segundo polinômio de Legendre e θ 
+ij
+​
+  é o ângulo entre as orientações de moléculas vizinhas.
+
+O projeto também explora o papel das superfícies, que exercem forças de ancoramento capazes de influenciar a orientação das moléculas, fenômeno crucial para o comportamento de displays e dispositivos ópticos.
 
 ---
 
 ## 🧮 Metodologia Computacional
 
-- Algoritmo de **Monte Carlo com Metropolis**
-- Evolução do sistema sob diferentes condições:
-  - Temperatura constante
-  - Campo elétrico externo
-  - Quench térmico
-- Simulações em **lattice 3D**
-- Diversas condições de **ancoramento nas fronteiras**
+A base do simulador é o Método de Monte Carlo, um algoritmo estocástico usado para modelar sistemas termodinâmicos. A evolução do sistema é governada pelo algoritmo de Metropolis, que aceita ou rejeita novas configurações (mudanças nas orientações moleculares) com base na variação de energia do sistema e na temperatura.
+
+A simulação evolui o sistema sob diversas condições:
+
+- Temperatura Constante: Análise do comportamento de equilíbrio em temperaturas específicas.
+
+- Campo Elétrico Externo: Estudo da resposta do sistema à aplicação de um campo externo, simulando o princípio de operação de displays.
+
+- Quench Térmico: Simulação de um resfriamento rápido, fundamental para investigar a formação de defeitos topológicos.
+
+- Ancoramento de Fronteira: Simulação da interação das moléculas com as superfícies da célula, usando diferentes potenciais de ancoramento.
+
 
 ---
 
